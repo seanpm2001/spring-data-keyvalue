@@ -5,7 +5,7 @@
 
 	<groupId>org.springframework.data</groupId>
 	<artifactId>spring-data-keyvalue</artifactId>
-	<version>3.0.0-SNAPSHOT</version>
+	<version>3.0.0-GH-445-SNAPSHOT</version>
 
 	<name>Spring Data KeyValue</name>
 
@@ -17,7 +17,8 @@
 	</parent>
 
 	<properties>
-		<springdata.commons>3.0.0-SNAPSHOT</springdata.commons>
+		<spring>6.0.0-SNAPSHOT</spring>
+		<springdata.commons>3.0.0-GH-2593-SNAPSHOT</springdata.commons>
 		<java-module-name>spring.data.keyvalue</java-module-name>
 	</properties>
 
