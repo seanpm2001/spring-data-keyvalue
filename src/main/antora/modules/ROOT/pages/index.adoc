@@ -1,3 +1,4 @@
+[[spring-data-key-value-reference-guide]]
 = Spring Data Key-Value Reference Guide
 Oliver Gierke; Thomas Darimont; Christoph Strobl; Jay Bryant; Mark Paluch
 :revnumber: {version}
