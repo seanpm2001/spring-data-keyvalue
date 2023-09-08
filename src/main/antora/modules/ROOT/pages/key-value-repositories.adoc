@@ -8,7 +8,7 @@ This chapter explains concepts and usage patterns you need to know when working 
 [[key-value.core-concepts]]
 == Core Concepts
 
-The key-value abstraction within Spring Data Key Value requires an `Adapter` that shields the native store implementation, freeing up `KeyValueTemplate` to work on top of any key-value pair-like structure. Keys are distributed across <<key-value.keyspaces>>. Unless otherwise specified, the class name is used as the default keyspace for an entity. The following interface definition shows the `KeyValueOperations` interface, which is the heart of Spring Data Key-Value:
+The key-value abstraction within Spring Data Key Value requires an `Adapter` that shields the native store implementation, freeing up `KeyValueTemplate` to work on top of any key-value pair-like structure. Keys are distributed across xref:key-value-repositories.adoc#key-value.keyspaces[Keyspaces]. Unless otherwise specified, the class name is used as the default keyspace for an entity. The following interface definition shows the `KeyValueOperations` interface, which is the heart of Spring Data Key-Value:
 
 ====
 [source, java]
