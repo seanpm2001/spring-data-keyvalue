@@ -1,28 +1,19 @@
 [[spring-data-key-value-reference-guide]]
-= Spring Data Key-Value Reference Guide
-Oliver Gierke; Thomas Darimont; Christoph Strobl; Jay Bryant; Mark Paluch
+= Spring Data Key-Value
 :revnumber: {version}
 :revdate: {localdate}
-ifdef::backend-epub3[:front-cover-image: image:epub-cover.png[Front Cover,1050,1600]]
-:spring-data-commons-docs: https://raw.githubusercontent.com/spring-projects/spring-data-commons/master/src/main/asciidoc
-:spring-data-keyvalue-docs: https://docs.spring.io/spring-data/keyvalue/docs/{version}/api/
-:spring-framework-docs: https://docs.spring.io/spring-framework/docs/{springVersion}/spring-framework-reference/
+:feature-scroll: true
 
-(C) 2008-2022 The original authors.
+Spring Data KeyValue provides connectivity and repository support for the in memory map structures.
+It eases development of applications with a consistent programming model that need to access key based storage and servers as foundation for custom adapters._
 
-NOTE: Copies of this document may be made for your own use and for distribution to others, provided that you do not charge any fee for such copies and further provided that each copy contains this Copyright Notice, whether distributed in print or electronically.
+[horizontal]
+xref:keyvalue.adoc[Key/Value Storage] :: Support for built in key-value structures
+xref:repositories.adoc[Repositories] :: KeyValue Repositories
+https://github.com/spring-projects/spring-data-commons/wiki[Wiki] :: What's New, Upgrade Notes, Supported Versions, additional cross-version information.
 
+Oliver Gierke; Thomas Darimont; Christoph Strobl; Jay Bryant; Mark Paluch
 
-include::{spring-data-commons-docs}/repositories.adoc[leveloffset=+1]
+(C) 2008-{copyright-year} VMware, Inc.
 
-[[reference]]
-= Reference Documentation
-
-
-[[appendix]]
-= Appendix
-
-:numbered!:
-include::{spring-data-commons-docs}/repository-namespace-reference.adoc[leveloffset=+1]
-include::{spring-data-commons-docs}/repository-populator-namespace-reference.adoc[leveloffset=+1]
-include::{spring-data-commons-docs}/repository-query-keywords-reference.adoc[leveloffset=+1]
+Copies of this document may be made for your own use and for distribution to others, provided that you do not charge any fee for such copies and further provided that each copy contains this Copyright Notice, whether distributed in print or electronically.
