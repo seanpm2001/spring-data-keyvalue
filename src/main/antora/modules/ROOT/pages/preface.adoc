@@ -1,5 +1,6 @@
 [[preface]]
 = Preface
+:page-section-summary-toc: 1
 
 [[project]]
 == Project Metadata
